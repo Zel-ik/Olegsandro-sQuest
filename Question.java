@@ -1,14 +1,10 @@
 package Quest;
 
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
+
 import java.util.concurrent.TimeUnit;
 
-import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class Question{
-
-    ScheduledExecutorService timer = new ScheduledThreadPoolExecutor(1);
 
     String answer = null;
     private String questionText;
